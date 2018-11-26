@@ -1,0 +1,58 @@
+p {
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+}
+
+h2 {
+    color: darkred;
+    text-align: right;
+    font-style: italic;
+}
+
+@media screen and (min-width: 360px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+body {
+    background-color: dimgray;
+}
+
+img {
+    border-style: solid;
+}
+
+header {
+    border-style: groove;
+}
+
+footer {
+    border-style: groove;
+}
+
+figure {
+    border-style: solid
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+img {
+    border-radius: 50%; 
+}
